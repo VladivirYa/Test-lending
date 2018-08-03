@@ -1,0 +1,158 @@
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 771px) {
+    .about-info__left {
+        max-width: 390px;
+        height: 240px;
+        float: left;
+    }
+
+    .about-info__right {
+        max-width: 360px;
+        height: 240px;
+        float: right;
+    }
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (max-width: 575.98px) {
+
+}
+
+@media (max-width: 767.98px) {
+    .logo-main {
+        float: none;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .block-right {
+        float: none;
+        margin: 0 auto;
+    }
+
+    .footer__left {
+        float: none;
+        text-align: center;
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .footer__middle {
+        text-align: center;
+        float: none;
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .footer__right {
+        float: none;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 799.98px) {
+    .all-card {
+        clear: both;
+        float: none;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .card-product {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-right: 0;
+    }
+
+    .card-product:nth-child(3) {
+        margin-right: 0px;
+    }
+
+    .card-product__foto {
+        align-self: center;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .nav-toggle {
+        display: block;
+    }
+
+    .menu__toggle {
+        display: none;
+    }
+
+    .menu__item a {
+        color: #969696;
+    }
+
+    #menu {
+        max-height: 0;
+        background: white;
+        float: none;
+        position: absolute;
+        overflow: hidden;
+        top: 50px;
+        right: 0;
+        left: 0;
+        margin: 0;
+        padding: 0;
+        z-index: 100;
+        transition: all .2s ease-in-out;
+    }
+
+    #menu li {
+        display: block;
+        padding: 5px 0;
+        border-bottom: 1px solid #EBEBE3;
+        margin-right: 0;
+    }
+
+    .main #menu {
+        background-color: #969696;
+    }
+
+    #menu li a {
+        color: #fff;
+    }
+
+    .footer__middle {
+        width: 135px;
+    }
+
+    .leftblock {
+        float: none;
+        margin-bottom: 20px;
+    }
+
+    .centerblock {
+        float: none;
+        margin: 0 auto;
+    }
+
+}
+
+@media (max-width: 1199.98px) {
+
+}

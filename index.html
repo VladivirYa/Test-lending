@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+          integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/vegas.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+<div class="loader">
+    <div class="loader__inner circle"></div>
+</div>
+<div class="overlay">
+    <form action="" id="contactForm">
+        <div class="btn-off"><i class="fas fa-times"></i></div>
+        <h1>Обратная связь</h1>
+        <label for="name">Ваше имя * </label>
+        <div class="form-name">
+            <input type="text" id="name" name="name">
+        </div>
+
+        <label for="phone">Телефон *</label>
+        <div class="form-name">
+            <input type="number" id="phone" name="phone">
+        </div>
+
+        <label for="email">Email * </label>
+        <div class="form-name">
+            <input type="email" id="email" name="email" placeholder="Поле обязательно для заполнения" required
+                   title="Поле является обязательным">
+        </div>
+
+        <label for="message">Сообщение * </label>
+        <div class="form-name">
+            <textarea type="text" id="message" name="message"></textarea>
+        </div>
+        <button type="submit" class="button-send">Отправить</button>
+    </form>
+</div>
+<header class="header" id="header">
+    <div class="container">
+        <div class="logo-main">
+            <img src="img/logo.png" alt="logo">
+        </div>
+        <div class="block-right">
+            <div class="number">
+                +7(499) 777-77-77 <br> +7(499) 777-77-77
+            </div>
+            <div class="feedback" id="feedback">
+                <a href="#">Обратная связь</a>
+            </div>
+        </div>
+    </div>
+</header>
+<section class="main">
+    <div class="container">
+        <nav class="menu">
+            <ul id="menu">
+                <li class="menu__item item"><a href="">Главная</a></li>
+                <li class="menu__item item"><a href="">Каталог</a></li>
+                <li class="menu__item item"><a href="">Доставка и оплата</a></li>
+                <li class="menu__item item"><a href="">Прайс-лист</a></li>
+                <li class="menu__item item"><a href="">Контакты</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="nav-toggle"><span></span></div>
+</section>
+<section class="slider" id="vegas-carusel">
+    <div class="vegas-control vegas-control-left"></div>
+    <div class="vegas-control vegas-control-right"></div>
+</section>
+<section class="main2">
+    <div class="container">
+        <ul>
+            <li class="menu2__item"><a href="#">Главная /</a></li>
+            <li class="menu2__item"><a href="#">Каталог /</a></li>
+            <li class="menu2__item"><a href="#">Бытовая техника</a></li>
+        </ul>
+    </div>
+</section>
+<section class="catalog">
+    <div class="container">
+        <div class="leftblock">
+            <ul>
+                <li><a href="">Автомобили</a></li>
+                <li class="drop-item">
+                    <a href="">Бытовая техника
+                        <ul>
+                            <li><a href="">Микроволновки</a></li>
+                            <li><a href="">Холодильники</a></li>
+                            <li><a href="">Посудомоечные машины</a></li>
+                            <li><a href="">Чайники</a></li>
+                        </ul>
+                    </a>
+                </li>
+                <li><a href="">Мобильная техника</a></li>
+                <li><a href="">Компьютеры</a></li>
+                <li><a href="">Одежда</a></li>
+                <li><a href="">Недвижимость</a></li>
+            </ul>
+        </div>
+        <div class="centerblock clearfix">
+            <div class="all-card clearfix">
+                <div class="card-product">
+                    <div class="card-product__foto"></div>
+                    <div class="card-product__descr">Самый клевый чайник, который надо купить!</div>
+                    <div class="card-product__price">
+                        <div class="price">1 900 р.</div>
+                        <div class="price-icon"><i class="fas fa-cart-plus"></i></div>
+                    </div>
+                </div>
+
+                <div class="card-product">
+                    <div class="card-product__foto"></div>
+                    <div class="card-product__descr">Самый клевый чайник, который надо купить!</div>
+                    <div class="card-product__price">
+                        <div class="price">1 900 р.</div>
+                        <div class="price-icon"><i class="fas fa-cart-plus"></i></div>
+                    </div>
+                </div>
+
+                <div class="card-product">
+                    <div class="card-product__foto"></div>
+                    <div class="card-product__descr">Самый клевый чайник, который надо купить!</div>
+                    <div class="card-product__price">
+                        <div class="price">1 900 р.</div>
+                        <div class="price-icon"><i class="fas fa-cart-plus"></i></div>
+                    </div>
+                </div>
+
+                <div class="card-product">
+                    <div class="card-product__foto"></div>
+                    <div class="card-product__descr">Самый клевый чайник, который надо купить!</div>
+                    <div class="card-product__price">
+                        <div class="price">1 900 р.</div>
+                        <div class="price-icon"><i class="fas fa-cart-plus"></i></div>
+                    </div>
+                </div>
+
+                <div class="card-product">
+                    <div class="card-product__foto"></div>
+                    <div class="card-product__descr">Самый клевый чайник, который надо купить!</div>
+                    <div class="card-product__price">
+                        <div class="price">1 900 р.</div>
+                        <div class="price-icon"><i class="fas fa-cart-plus"></i></div>
+                    </div>
+                </div>
+            </div>
+            <div class="pagination">
+                <ul>
+                    <li><a href="" class="pagination__item">1</a></li>
+                    <li><a href="" class="pagination__item">2</a></li>
+                    <li><a href="" class="pagination__item">3</a></li>
+                    <li><a href="" class="pagination__item">4</a></li>
+                    <li><a href="" class="pagination__item">5</a></li>
+                    <li><a href="" class="pagination__item">6</a></li>
+                    <li><a href="" class="pagination__item">7</a></li>
+                </ul>
+            </div>
+            <hr style=" background: #777777; height: 1px; border: none; margin-bottom: 28px;">
+            <div class="about-info clearfix">
+                <div class="about-info__left">Компания «Пиксель Плюс» существует более 6 лет, за это время мы принимали
+                    участие в разработке более чем 700 сайтов, поэтому можем уверенно называть себя профессионалами. На
+                    данный момент наш коллектив состоит из более чем 30 сотрудников работающих в двух офисах в Москве и
+                    Зеленограде.характерные для этого жанра мотивы: неразделённой любви, ухода молодости, угасания души.
+                </div>
+                <div class="about-info__right">Одним из основных направлений работ нашей компании является поисковое
+                    продвижение сайтов, на данной момент мы работаем с более чем 150 постоянными клиентами по более чем
+                    11 000 поисковым запросам. При этом в работе основной акцент мы делаем на качестве работ, а так же
+                    применяем собственные уникальные разработки в области SEO продвижения. На данный момент отдел SEO
+                    состоит из 9 человек под руководством ведущего специалиста, преимущественно работающих в нашем
+                    московском офисе.
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <div class="container">
+        <div class="footer__left">
+            <address class="footer__address">
+                &copy; 2012–2013 ЗАО «Компания» <br>
+                info@name.ru
+            </address>
+        </div>
+        <div class="footer__middle">
+            <nav class="footer__menu">
+                <ul>
+                    <li class="menu__item3 item"><a href="">Главная</a></li>
+                    <li class="menu__item3 item"><a href="">Каталог</a></li>
+                    <li class="menu__item3 item"><a href="">Доставка и оплата</a></li>
+                    <li class="menu__item3 item"><a href="">Прайс-лист</a></li>
+                    <li class="menu__item3 item"><a href="">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="footer__right">
+            <div class="footer__right_company">
+                <img src="img/company.png" alt="company_icon" style="width: 36px; height: 38px;">
+            </div>
+            <div class="footer__right_developer-site">
+                Разработка сайта — <br>
+                компания «Пиксель Плюс»
+            </div>
+        </div>
+
+    </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+<script src="libs/vegas.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
